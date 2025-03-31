@@ -1,0 +1,964 @@
+@charset "UTF-8";
+
+@media screen and (max-width:1800px){
+  .offline_side_btn {
+    width:80%;
+  }
+}
+@media screen and (max-width:1590px){
+  .offline_side_btn {
+    width:90%;
+  }
+}
+@media screen and (max-width:1590px){
+  .offline_side_btn {
+    width:98%;
+  }
+}
+
+
+@media screen and (max-width:1380px){
+  .indicator_wrap {
+    width:90%;
+  }
+  .offline_side_btn {
+    width:100%;
+  }
+}
+
+@media screen and (max-width:1190px){
+  .footer_etc_info  {
+    gap:16px;
+  }
+  .footer_etc_info > li:not(:last-child) {
+    padding-right:16px;
+  }
+}
+@media screen and (max-width:1097px){
+  .footer_etc_info  {
+    gap:12px;
+  }
+  .footer_etc_info > li:not(:last-child) {
+    padding-right:12px;
+  }
+}
+@media screen and (max-width:1047px){
+  .footer_etc_info  {
+    gap:6px;
+  }
+  .footer_etc_info > li:not(:last-child) {
+    padding-right:6px;
+  }
+  .footer_etc_info {
+    margin-top:70px;
+  }
+}
+
+
+@media screen and (max-width:1200px){  /* -------------------------------------------------------------------- */
+  .w1200 { padding:0 108px;}
+  /* header */
+  #gnb,
+  .gnb_today a { /* 메뉴 기획전~오늘의 추천 */
+    font-size:18px;
+  }
+  .menu_wrap { 
+    width:auto;
+    gap:66px;
+  }
+
+  .nav_container .logo { /* logo */
+    width:13%;
+  }
+
+   /* 메인빌보드 */
+  .mainBaneer_container > .w1200 > .slide_txt_wrap {
+    left:16%;
+  }
+  .indicator_wrap {
+    width:80%;
+  }
+
+  /* sec1 :: 카테고리 */
+  #category_container > .w1200 {
+    padding:0 108px;
+    gap:28px;
+  }
+
+  /* since 2000 */
+  .since_txt_wrap > h1 {
+    width:42%;
+  }
+  .since_contents {
+    width:50%;
+    font-size:16px;
+  }
+
+  /* winter */
+  #weather > .w1200 {
+    justify-content: space-between;
+  }
+  .weather_left {
+    width:28%;
+  }
+  .weather_right {
+    width:72%;
+  }
+  
+  /* offline */
+  .offline_overlay > article {
+    width:100%;
+  }
+  .offline_side_btn {
+    width:95%;
+  }
+}
+
+
+@media screen and (max-width:1180px){
+  .since_txt_wrap > h1 {
+    font-size:76px;
+  }
+}
+
+@media screen and (max-width:1177px){  
+  .menu_wrap {
+    gap:52px;
+  }
+}
+
+
+
+@media screen and (max-width:1162px){ 
+  /* menu */
+  .menu_wrap {
+    gap:32px;
+  }
+  #gnb {
+    gap:32px;
+  }
+  .menu_wrap a {
+    font-size:16px;
+  }
+}
+
+
+@media screen and (max-width:1156px){
+  .since_txt_wrap > h1 {
+    font-size:68px;
+  }
+}
+
+
+@media screen and (max-width:1130px){
+  .productList_wrap_3col > .product_img_wrap {
+    height:270px;
+  }
+}
+
+
+
+@media screen and (max-width:1024px){ /* -------------------------------------------------------------------- */
+  body {
+    overflow-x: hidden;
+  }
+  .w1200 {
+    padding:0 32px;
+  }
+
+  /* logo */
+  .nav_container > .w1200 {
+    flex-direction: column;
+    width:100%;
+  }
+  .w1024_logo {
+    width:100%;
+    height:72px;
+    display:flex;
+    align-items:center;
+    justify-content: center;
+  }
+  .w1024_logo > a {
+    width:14%;
+  }
+
+
+  /* menu */
+  .menu_wrap {
+    width:100%;
+    height:80px;
+    display:flex;
+    justify-content: space-between;
+    align-items:center;
+  }
+  .nav_container {
+    height:auto;
+  }
+  .w1024_gnb > #gnb {
+    display:flex;
+    gap:32px;
+  }
+  .mainBaneer_container > .w1200 > .slide_txt_wrap {
+    left:10%;
+  }
+
+  /* slide */
+  .indicator_wrap  {
+    width:90%;
+  }
+  .mainBaneer_container > .w1200 {
+    width:100%;
+  }
+
+
+  /* sec1 */
+  #category_container > .w1200 {
+    padding:0 32px;
+    gap:42px;
+  }
+  #category_container .category_list div {
+    width:100%;
+    height:120px;
+  }
+
+  /* new & best */
+  #newNbest > .w1200 {
+    flex-direction:column;
+  }
+  .nNb_left_wrap {
+    width:100%;
+    display:flex;
+    justify-content: space-between;
+    align-items:center;
+  }
+  .nNb_tab_wrap {
+    flex-direction: row;
+    gap:32px;
+  }
+  .nNb_best,
+  .nNb_moreBtn {
+    margin-top:0;
+  }
+  .nNb_right_wrap {
+    margin-top:32px;
+    width:100%;
+  }
+  .nNb_new_contents_wrap {
+    justify-content: space-between;
+  }
+
+  /*since*/
+  .since_txt_wrap > h1 {
+    width:100%;
+  }
+  .since_txt_wrap {
+    flex-direction: column;
+  }
+  .since_contents {
+    width:82%;
+    margin-top:32px;
+  }
+  .since_contents > p:last-child {
+    margin-top:16px;
+  }
+  .since_img_wrap > .since_img {
+    width:97%;
+  }
+  .since_img_wrap > .since_txt {
+    right:1%;
+    top:-22%;
+  }
+
+  /* winter */
+  .productList_wrap_3col > .product_img_wrap {
+    height:300px;
+  }
+
+  /*offline*/
+  .offline_con_wrap > .offline_box:nth-child(3),
+  .offline_side_btn{
+    display:none;
+  }
+  .offline_con_wrap > .offline_box {
+    width:49%;
+  }
+
+  /*footer*/
+  .footer_top_box > .footer_top_one {
+    width:32%;
+  }
+  .footer_top_box > .footer_top_two {
+    padding-left:42px;
+  }
+  .footer_logo {
+    width:30%;
+  }
+}
+
+
+
+@media screen and (max-width:940px){
+  .category_list {
+    max-height:110px;
+    height:auto;
+  }
+  #category_container .category_list div {
+    height:100%;
+  }
+  #category_container > .w1200 {
+    gap:24px;
+  }
+  /* slide */
+  .nav_mega_wrap > div {
+    gap:24px;
+  }
+  .nav_mega_wrap > .w1200 > article {
+    width:26%;
+  }
+  .nav_mega_wrap > div > article > div {
+    width:100%;
+    height:250px;
+  }
+
+  /* winter */
+  .productList_wrap_3col > .product_img_wrap {
+    height:270px;
+  }
+}
+
+
+
+@media screen and (max-width:850px){
+  .category_list {
+    max-height:100px;
+    height:auto;
+  }
+  #category_container .category_list div {
+    height:100%;
+  }
+
+  /* winter */
+  .weather_video {
+    height:450px;
+  }
+  .productList_wrap_3col > .product_img_wrap {
+    height:250px;
+  }
+}
+
+
+
+
+@media screen and (max-width:800px){
+  .weather_right {
+    gap:16px;
+  }
+  .productList_wrap_3col > .product_img_wrap {
+    height:220px;
+  }
+  .footer_info_wrap {
+    align-items:flex-end;
+  }
+}
+
+
+@media screen and (max-width:793px){
+  .footer_etc_info > li > a{
+    font-size:12px;
+  }
+}
+
+
+
+@media screen and (max-width:780px){
+  /* winter */
+  .productList_wrap_3col > .product_img_wrap {
+    height:220px;
+  }
+  .weather_video {
+    height:380px;
+  }
+  .weather_right {
+    gap:42px 16px;
+  }
+  .footer_top_two {
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start; /* ㅎ */
+  }
+  .footer_bottom_box > p {
+    font-size:12px;
+  }
+}
+
+
+
+@media screen and (max-width:768px){  /* -------------------------------------------------------------------- */
+  .w1200 {
+    padding:0 24px; 
+  }
+
+  /* w768 menu */
+  .w768_modal_menu_container {
+    opacity: 0;
+    width:0; /*100%;*/
+    right:0;
+    z-index:999;
+    background-color:#00000090;
+    transition:.8s;
+  }
+  .w768_menu_box {
+    width:0; /*90%;*/
+    max-height:100vh; /* height:100%는 부모영향받아서 스크롤 안됨, 100vh는 상관없이 뷰포트(화면) 100%라 스크롤 가능! */
+    overflow-y:auto;
+    background-color:#111;
+    padding-left:42px;
+    margin-left:auto;
+    position:relative;
+    padding-top:72px;
+    padding-bottom:72px;
+    transition:.8s;
+  }
+  .w768_menu_box::-webkit-scrollbar {
+    background-color:transparent;
+  }
+  .w768_close_btn {
+    width:32px;
+    height:32px;
+    background-color:transparent;
+    outline:none; border:none;
+    position:absolute;
+    right:42px;
+    top:42px;
+    cursor:pointer;
+    transition:.8s;
+  }
+  .w768_close_btn > img {
+    width:100%;
+  }
+  .w768_gnb li a {
+    color:#f4f4f4;
+    line-height:70px;
+    font-size:18px;
+  }
+  .w768_gnb li.w768_gnb_point a {
+    color:#BC8BFF;
+  }
+  .menu_planning_wrap {
+    margin-top:52px;
+  }
+  .menu_planning_wrap > p > a {
+    color:#f4f4f4;
+    font-size:24px;
+    font-weight:700;
+  }
+  .menu_planning_wrap > div {
+    display:flex;
+    justify-content:flex-start;
+    flex-wrap:wrap;
+    gap:32px 12px;
+    margin-top:44px;
+  }
+  .menu_planning_wrap > div > article {
+    width:44%;
+  }
+  .menu_planning_wrap > div > article > div {
+    width:100%;
+    overflow:hidden;
+  }
+  .menu_planning_wrap > div > article > div > img {
+    width:100%;
+    object-fit: cover;
+    transition:.3s;
+  }  
+  .menu_planning_wrap > div > article > p {
+    color:#f4f4f4;
+    margin-top:16px;
+  }
+  /* hover */
+  .menu_planning_wrap > div > article > div:hover img {
+    transform:scale(1.2);
+  }
+  /* w768 menu END*/
+
+  /*menu*/
+  .menu_wrap {
+    display:none;
+  }
+  .ban_menu {
+    display:block;
+  }
+  .nav_mega_wrap {
+    display:none;
+  }
+  .w1024_logo {
+    width:18%;
+  }
+  .w1024_logo a,
+  .w1024_logo img {
+    width:100%;
+  }
+
+  /* slide */
+  .imgSlide_wrap img {
+    width:100%;
+    min-width:100%;
+  }
+  .indicator_wrap {
+    width:94%;
+  }
+  .mainBaneer_container > .w1200 > .slide_txt_wrap {
+    text-align:center;
+    left:50%;
+    transform:translateX(-50%);
+    width:100%;
+  }
+  .indicator_wrap button {
+    display:none;
+  }
+  .indicator_wrap {
+    justify-content: center;
+  }
+
+  /* 굿즈 */
+  #category_container > .w1200 {
+    gap:20px;
+  }
+  #category_container .category_list div {
+    width:100%;
+    height:90%;
+  }
+  #category_container .category_list p {
+    font-size:16px;
+  }
+
+
+  /* 차는 몸을 진정시캬줘요 */
+  .teaIs_txt_wrap h1 {
+    font-size:20px;
+  }
+  #teaIs_container,
+  #newNbest,
+  #since,
+  #weather,
+  #event_banner_container,
+  #offline_container,
+  footer {
+    margin-top:120px;
+  }
+  #teaIs_container > .w1200 > h1 {
+    font-size:26px;
+  }
+  .teaIs_txt_wrap p {
+    font-size:15px;
+  }
+  .teaIs_img_wrap > .teaIs_arrow_icon {
+    width:24px;
+    height:24px;
+  }
+
+  /* new & best */
+  .nNb_new_contents_wrap > .productList_wrap_3col {
+    width:48%;
+  }
+  .more_btn_icon {
+    vertical-align:text-top;
+    margin-left:4px;
+  }
+
+  /* since */
+  #since {
+    overflow:hidden;
+  }
+  .since_txt_wrap > h1,
+  .since_contents {
+    width:100%;
+  }
+
+  /* weather */
+  #weather > .w1200 {
+    flex-direction: column;
+  }
+  .offline_btn {
+    display:inline-block;
+    float:right;
+  }
+  #offline_container > .w1200 > h1 {
+    float:left;
+  }
+  .productList_wrap_3col > .product_img_wrap {
+    height:300px;
+  }
+  /* .offline_btn::after,
+  #offline_container > .w1200 > h1::after {
+    content:"";
+    display:block;
+    clear:both;
+  } */
+  .w768_clear {
+    display:block;
+  }
+  .weather_left {
+    display:flex;
+    justify-content: space-between;
+    width:100%;
+  }
+  .weather_txt_wrap {
+    width:36%;
+  }
+  .weather_txt_wrap > p {
+    font-size:15px;
+  }
+  .weather_video {
+    width:53%;
+    height:190px;
+    margin-top: 0;
+  }
+  .weather_txt_wrap > h1 {
+    margin-bottom:12px;
+  }
+  .weather_moreBtn {
+    font-size:16px;
+  }
+  .weather_right {
+    width:100%;
+  }
+  .productList_wrap_3col {
+    width:48%;
+  }
+  .weather_right {
+    justify-content: space-between;
+    margin-top:72px;
+  }
+
+  /* footer */
+  .footer_top_box {
+    flex-direction:column;
+  }
+  .footer_top_box > .footer_top_one {
+    width:90%;
+    text-align:center;
+    padding-bottom:62px;
+    padding-right:0;
+    border:none;
+    margin:auto;
+  }
+  .footer_info_wrap {
+    margin-left:0;
+    padding-top:62px;
+    border-top:solid 1px #ddd;
+  }
+  .footer_bottom_box {
+    display:none;
+  }
+  .w768_footer_bottom_box {
+    display:block;
+  }
+  .footer_bottom_box {
+    padding:42px 0;
+  }
+  .w768_footer_bottom_box p {
+    margin-top:16px;
+  }
+  .footer_top_two {
+    align-items:flex-start;
+  }
+
+  /* app.html */
+  
+.app_img_container > div {
+  width:33%;
+  flex-wrap:wrap;
+}
+.app_img_container > div:nth-of-type(2),
+.app_img_container > div:nth-of-type(6) {
+  display:none;
+}
+.white_color {
+  background: linear-gradient(0deg, white, white, #ffffff90, transparent);
+}
+
+  .app_contents > .w1200 {
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  .app_contents > .w1200 > div:last-child {
+    margin-top:52px;
+    width:90%;
+  }
+}
+
+
+
+@media screen and (max-width:700px){
+  #category_container .category_list div {
+    height:80%;
+  }
+}
+
+
+
+
+@media screen and (min-width:375px) and (max-width:600px){  /* -------------------------------------------------------------------- */
+  .w1200 {
+    padding:0 32px;
+  }
+
+  .header_event_banner {
+    display:none;
+  }
+  .nNb_new_contents_wrap > .productList_wrap_3col {
+    width:100%;
+  }
+  .header_icon_container,
+  .nav_container {
+    display:none;
+  }
+  .w600_header_container {
+    display:block;
+  }
+  .header_icon_container > div {
+    justify-content: space-between;
+  } 
+  .w1024_logo {
+    width:24%;
+  }
+  .w1024_logo a,
+  .w1024_logo img {
+    width:100%;
+  }
+
+  /* slide */
+  .mainBaneer_container > .w1200 > .slide_txt_wrap {
+    top:34%;
+  }
+  .mainBaneer_container > .w1200 > .slide_txt_wrap p {
+    font-size:16px;
+  }
+  .indicator_wrap {
+    width:90%;
+  }
+
+
+  /* 굿즈 */
+  #category_container {
+    margin-top:140px;
+  }
+  #category_container > .w1200 {
+    flex-wrap:wrap;
+  }
+  #category_container .category_list {
+    width:26%;
+    max-height:200px;
+  }
+  #category_container .category_list div {
+    height:68%;
+  }
+  #category_container .category_list p {
+    font-size:18px;
+    margin-top:32px;
+  }
+
+
+  /* 이런 차는 어뗘요 */
+  .teaIs_img_wrap,
+  .teaIs_img_wrap.hover {
+    width:100%;
+    height:144px;
+  }
+  .teaIs_img_wrap.h_hover {
+    height:414px;
+  }
+  .teaIs_con_wrap {
+    flex-direction: column;
+    gap:12px;
+  }
+
+  /* new & Best */
+  .nNb_new_contents_wrap {
+    gap:42px 16px;
+  }
+
+
+  /* since */
+  .since_txt_wrap > h1 {
+    font-size:62px;
+  }
+  .since_contents p {
+    font-size:14px;
+  }
+  .since_img_wrap {
+    margin-top:72px;
+    height:600px;
+  }
+  .since_img_wrap > .since_txt {
+    top:-14%;
+  }
+  .since_contents > p:last-child {
+    display:none;
+  }
+
+
+
+  /* winter */
+  #weather {
+    margin-top:140px;
+  }
+  .weather_video {
+    width:100%;
+  }
+  .weather_left {
+    flex-direction: column;
+  }
+  .weather_txt_wrap {
+    width:90%;
+  }
+  .weather_moreBtn {
+    display:none;
+  }
+  .weather_moreBtn.w600_weather_btn {
+    display:inline-block;
+    margin:auto;
+    margin-top:92px;
+    width:auto;
+  }
+  .weather_right {
+    margin-top:62px;
+  }
+  .productList_wrap_3col {
+    width:100%;
+  }
+
+
+
+  /* event */
+  .event_moreBtn {
+    font-size:16px;
+  }
+  .more_btn_icon {
+    margin-left:6px;
+    vertical-align: text-top;
+  }
+
+
+  /* offline */
+  #offline_container > .w1200 > h1{
+    font-size:26px;
+  }
+  .offline_btn {
+    font-size:16px;
+  }
+  .offline_con_wrap {
+    gap:12px;
+  }
+  .offline_con_wrap > .offline_box {
+    width:50%;
+  }
+
+  /* footer */
+  .footer_top_box > .footer_top_one {
+    width:90%;
+  }
+  .footer_info_wrap.w600_footer_info_wrap {
+    display:flex;
+    align-items:center;
+    flex-direction: column;
+  }
+  .footer_info_wrap {
+    display:none;
+  }
+  .footer_top_two {
+    align-items:center;
+  }
+  .footer_top_three > div > p {
+    margin-top:20px;
+  }
+  .footer_top_three {
+    margin:32px 0;
+  }
+  .footer_etc_info {
+    margin:0;
+  }
+  .footer_top_box {
+    margin-bottom:62px;
+  }
+  .footer_bottom_box {
+    padding:62px 0;
+    text-align:center;
+  }
+  .footer_bottom_sns {
+    justify-content: center;
+  }
+  .w768_footer_bottom_box p {
+    font-size:12px;
+  }
+  .app_img_container > div:nth-of-type(7),
+  .app_img_container > div:nth-of-type(3) {
+    display:none;
+  }
+  .app_img_container {
+    margin-top:52px;
+  }
+  .app_contents > .w1200 > div:last-child {
+    width:100%;
+  }
+  .app_contents > .w1200 > div:last-child > p {
+    font-size:18px;
+  }
+  .app_qr {
+    display:none;
+  }
+  .app_go_btn {
+    display:block;
+  }
+  .app_contents > .w1200 > div:last-child {
+    margin-top:72px;
+  }
+}
+
+@media screen and (max-width:400px) {
+  .w1024_logo > a {
+    height:25px;
+  }
+  #category_container .category_list {
+    width:40%;
+  }
+  .more_btn { /*제품 보러가기*/
+    font-size:14px;
+  }
+  /*since*/
+  .since_img_wrap {
+    height:400px;
+  }
+
+  /* contents Title */
+  #teaIs_container > .w1200 > h1,
+  #offline_container > .w1200 > h1 {
+    font-size:18px;
+  }
+  .offline_con_wrap > .offline_box > p {
+    font-size:16px;
+  }
+  .offline_overlay > article p {
+    font-size:14px;
+  }
+  .offline_overlay > article h1 {
+    font-size:20px;
+  }
+
+  /* app.html */
+  .app_img_container > div {
+    width:50%;
+  }
+  .app_img_container > div:nth-of-type(1) {
+    display:none;
+  }
+
+  /* footer */
+  .footer_company_info {
+    text-align:center;
+  }
+}

@@ -1,0 +1,808 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylehseet" href="css/font.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/style_1200.css" />
+    <link rel="icon" href="images/favicon_io/favicon-32x32.png" />
+    <script defer src="js/script.js"></script>
+    <title>Ami The</title>
+  </head>
+  <body>
+    <!-- ~w768 메뉴 -->
+    <div class="w768_modal_menu_container">
+      <!-- menu box -->
+      <div class="w768_menu_box">
+        <button class="w768_close_btn">
+          <img src="images/close_white.png" alt="close" />
+        </button>
+        <ul class="w768_gnb">
+          <li class="w768_gnb_point"><a href="#">#오늘의 추천</a></li>
+          <li><a href="#">커피</a></li>
+          <li><a href="#">티백차</a></li>
+          <li><a href="#">티팟</a></li>
+          <li><a href="#">밀크티</a></li>
+          <li><a href="#">말차</a></li>
+          <li><a href="#">티백세트</a></li>
+          <li><a href="#">선물세트</a></li>
+        </ul>
+        <div class="menu_planning_wrap">
+          <p><a href="#">기획전</a></p>
+          <div>
+            <!--
+            <article>
+              <div><img src="images/mega_img1.png" alt="해피뉴이어" /></div>
+              <p>해피뉴이어 2025</p>
+            </article>
+            -->
+            <article>
+              <div><img src="images/mega_img1_1.png" alt="App 출시" /></div>
+              <p>App 출시</p>
+            </article>
+            <article>
+              <div>
+                <img src="images/mega_img2.png" alt="낭만을 즐겨요 캠핑" />
+              </div>
+              <p>낭만을 즐겨요 캠핑</p>
+            </article>
+            <article>
+              <div>
+                <img src="images/mega_img3.jpg" alt="Winter 골드빛 정원" />
+              </div>
+              <p>Winter 골드빛 정원</p>
+            </article>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- 상단 띠배너 -->
+    <div class="header_event_banner">
+      <div class="w1200">
+        <p>5+3</p>
+        <p>💫대박 기획! 💫 여러개 살 수록 이득인 선물 꾸러미 이벤트 도착! 📦</p>
+      </div>
+    </div>
+
+    <!-- header -->
+    <header>
+      <!-- 검색, 로그인, 장바구니  -->
+      <div class="header_icon_container">
+        <div class="w1200">
+          <input
+            type="text"
+            id="search"
+            name="search"
+            title="search"
+            placeholder="검색어를 입력해주세요"
+          />
+          <article>
+            <img
+              class="searchIcon"
+              src="images/icon_search.png"
+              alt="검색하기"
+            />
+            <img src="images/icon_login.png" alt="로그인" />
+            <img src="images/icon_cart.png" alt="장바구니" />
+            <img class="ban_menu" src="images/icon_menu.png" alt="메뉴" />
+          </article>
+        </div>
+      </div>
+
+      <!-- nav -->
+      <nav class="nav_container">
+        <div class="w1200">
+          <!--<img class="logo" src="images/logo.png" alt="LOGO">-->
+          <div class="w1024_logo">
+            <a href="#"><img src="images/logo.png" alt="LOGO" /></a>
+          </div>
+          <div class="menu_wrap">
+            <ul id="gnb">
+              <li class="megaLi">
+                <img src="images/icon_gnbMenu.png" alt="기획전" /><a href="#"
+                  >기획전</a
+                >
+              </li>
+              <li><a href="#">커피</a></li>
+              <li><a href="#">티백차</a></li>
+              <li><a href="#">티팟</a></li>
+              <li><a href="#">밀크티</a></li>
+              <li><a href="#">말차</a></li>
+              <li><a href="#">티백세트</a></li>
+              <li><a href="#">선물세트</a></li>
+            </ul>
+            <p class="gnb_today"><a href="#">&#35;오늘의 추천</a></p>
+          </div>
+        </div>
+      </nav>
+
+      <!-- w600  -->
+      <div class="header_icon_container w600_header_container">
+        <div class="w1200">
+          <!--검색은 그냥 전체 화면으로 하는 걸로 모달창같이-->
+          <div class="w1024_logo">
+            <a href="#"><img src="images/logo.png" alt="LOGO" /></a>
+          </div>
+          <article>
+            <img
+              class="searchIcon"
+              src="images/icon_search.png"
+              alt="검색하기"
+            />
+            <img src="images/icon_login.png" alt="로그인" />
+            <img src="images/icon_cart.png" alt="장바구니" />
+            <img class="ban_menu" src="images/icon_menu.png" alt="메뉴" />
+          </article>
+        </div>
+      </div>
+
+      <!-- sub Mega menu :: 기획전 -->
+      <div class="nav_mega_wrap">
+        <div class="w1200">
+          <!--
+          <article>
+            <div><img src="images/mega_img1.png" alt="해피뉴이어" /></div>
+            <p>해피뉴이어 2025</p>
+          </article>
+          -->
+          <article>
+            <div><a href="app.html"><img src="images/mega_img1_1.png" alt="App 출시" /></a></div>
+            <p><b><a class="app_link_a" href="app.html">App 출시</a></b></p>
+          </article>
+          <article>
+            <div><img src="images/mega_img2.png" alt="기획전2" /></div>
+            <p>낭만을 즐겨요 캠핑</p>
+          </article>
+          <article>
+            <div><img src="images/mega_img3.jpg" alt="기획전3" /></div>
+            <p>Winter 골드빛 정원</p>
+          </article>
+        </div>
+      </div>
+    </header>
+
+    <!-- 메인 빌보드 -->
+    <div class="mainBaneer_container">
+      <!--slide img-->
+      <div class="imgSlide_wrap">
+        <img src="images/mainBanner1.png" alt="mainBanner" />
+        <img src="images/mainBanner2.png" alt="mainBanner" />
+        <img src="images/mainBanner3.png" alt="mainBanner" />
+        <img src="images/mainBanner4.png" alt="mainBanner" />
+        <img src="images/mainBanner1.png" alt="mainBanner" />
+        <!-- <img src="images/mainBanner3.png" alt="mainBanner_1">
+      <img src="images/mainBanner4.png" alt="mainBanner_1">
+      <img src="images/mainBanner5.png" alt="mainBanner_1">
+      <img src="images/mainBanner6.png" alt="mainBanner_1"> -->
+      </div>
+
+      <div class="w1200">
+        <article class="slide_txt_wrap">
+          <h1>자몽 블렌딩 티백 세트</h1>
+          <p>
+            자몽을 직접 키워 연구한 비율로 만든 티백 <br />
+            상큼한 자몽의 향과 달콤한 과일향으로 <br />
+            마음을 선물해주고 싶은 사람들이나 <br />
+            고생한 나에게 그리고 2025년을 힘낼 나를 위해 <br />
+            한 번 건네주면 어떨까요?
+          </p>
+        </article>
+        <!-- <img class="slide_img" src="images/product_img.png" alt="product_img"> -->
+        <div class="indicator_wrap">
+          <button class="slide_prev">
+            <img src="images/left_btn_white.png" alt="prev" />
+          </button>
+          <ul class="dot">
+            <li class="on"></li>
+            <li></li>
+            <li></li>
+            <li></li>
+          </ul>
+          <button class="slide_next">
+            <img src="images/right_btn_white.png" alt="next" />
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <!-- Contents -->
+    <section id="category_container">
+      <div class="w1200">
+        <!--list-->
+        <div class="category_list">
+          <div><img src="images/category_img1.png" alt="오늘의차" /></div>
+          <p>오늘의 차</p>
+        </div>
+        <!--list-->
+        <div class="category_list">
+          <div><img src="images/category_img2.png" alt="오늘의차" /></div>
+          <p>굿즈</p>
+        </div>
+        <!--list-->
+        <div class="category_list">
+          <div><img src="images/category_img3.png" alt="오늘의차" /></div>
+          <p>티팟 세트</p>
+        </div>
+        <!--list-->
+        <div class="category_list">
+          <div><img src="images/category_img4.png" alt="오늘의차" /></div>
+          <p>2025 s/s</p>
+        </div>
+        <!--list-->
+        <div class="category_list">
+          <div><img src="images/category_img5.png" alt="오늘의차" /></div>
+          <p>커피 원두</p>
+        </div>
+        <!--list-->
+        <div class="category_list">
+          <div><img src="images/category_img6.png" alt="오늘의차" /></div>
+          <p>다도 세트</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- 차(Tea)는 몸을 안정시켜줘요. -->
+    <section id="teaIs_container">
+      <div class="w1200">
+        <h1>차(Tea)는 몸을 안정시켜줘요.</h1>
+        <div class="teaIs_con_wrap">
+          <!--list-->
+          <div class="teaIs_img_wrap hover h_hover">
+            <img class="teaIs_img" src="images/teaIs_img1.png" alt="teaIs" />
+            <!--txt-->
+            <div class="teaIs_txt_wrap">
+              <h1>몸이 차가운 날엔</h1>
+              <p>
+                몸이 차가운 날엔 따뜻하게 차를 우려 <br />
+                속부터 따뜻하게 만드는게 핵심입니다.
+              </p>
+            </div>
+            <!--btn-->
+            <a class="go_btn teaIs_go_btn" href="#">
+              제품 보러가기
+              <img
+                class="go_btn_icon"
+                src="images/btn_icon.png"
+                alt="제품보러가기"
+              />
+            </a>
+            <img
+              class="teaIs_arrow_icon"
+              src="images/btn_icon.png"
+              alt="제품보러가기"
+            />
+          </div>
+          <!--list-->
+          <div class="teaIs_img_wrap">
+            <img class="teaIs_img" src="images/teaIs_img2.png" alt="teaIs" />
+            <!--txt-->
+            <div class="teaIs_txt_wrap">
+              <h1>편안한 마음을 원하는 날엔</h1>
+              <p>
+                여유롭게 마음의 안정을 찾고 싶거나 <br />
+                잔잔하고 따뜻한 휴식을 원할 때 추천합니다.
+              </p>
+            </div>
+            <!--btn-->
+            <a class="go_btn teaIs_go_btn" href="#">
+              제품 보러가기
+              <img
+                class="go_btn_icon"
+                src="images/btn_icon.png"
+                alt="제품보러가기"
+              />
+            </a>
+            <img
+              class="teaIs_arrow_icon"
+              src="images/btn_icon.png"
+              alt="제품보러가기"
+            />
+          </div>
+          <!--list-->
+          <div class="teaIs_img_wrap">
+            <img class="teaIs_img" src="images/teaIs_img3.png" alt="teaIs" />
+            <!--txt-->
+            <div class="teaIs_txt_wrap">
+              <h1>날씨가 분위기 있는 날엔</h1>
+              <p>
+                비가 추적추적 내리는 날이나 <br />
+                봄날의 햇살처럼 눈 부신 날에 추천합니다.
+              </p>
+            </div>
+            <!--btn-->
+            <a class="go_btn teaIs_go_btn" href="#">
+              제품 보러가기
+              <img
+                class="go_btn_icon"
+                src="images/btn_icon.png"
+                alt="제품보러가기"
+              />
+            </a>
+            <img
+              class="teaIs_arrow_icon"
+              src="images/btn_icon.png"
+              alt="제품보러가기"
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--New and Best-->
+    <section id="newNbest">
+      <div class="w1200">
+        <!--category-->
+        <div class="nNb_left_wrap">
+          <div class="nNb_tab_wrap">
+            <button class="nNb_new nNb_tab choice">New</button>
+            <button class="nNb_best nNb_tab">Best</button>
+          </div>
+          <!--btn-->
+          <a class="more_btn nNb_moreBtn" href="#">
+            제품 보러가기
+            <img
+              class="more_btn_icon"
+              src="images/btn_icon_black.png"
+              alt="제품보러가기"
+            />
+          </a>
+        </div>
+        <!--product list-->
+        <div class="nNb_right_wrap">
+          <!--  ** NEW **  -->
+          <div class="nNb_new_contents_wrap nNb_view">
+            <!--list 1-->
+            <article class="productList_wrap_3col">
+              <div class="product_img_wrap">
+                <img src="images/nNb_new_Img1.png" alt="New" />
+              </div>
+              <p>달빛 아래 밀크티 10개입</p>
+              <div class="product_price_wrap">
+                <h1>8,000</h1>
+                <p>원</p>
+              </div>
+            </article>
+            <!--list 2-->
+            <article class="productList_wrap_3col">
+              <div class="product_img_wrap">
+                <img src="images/nNb_new_Img2.png" alt="New" />
+              </div>
+              <p>별헤는 밤 티백 20개입</p>
+              <div class="product_price_wrap">
+                <h1>32,000</h1>
+                <p>원</p>
+              </div>
+            </article>
+            <!--list 3-->
+            <article class="productList_wrap_3col">
+              <div class="product_img_wrap">
+                <img src="images/nNb_new_Img3.png" alt="New" />
+              </div>
+              <p>정원 말차 밀크티백 10개입</p>
+              <div class="product_price_wrap">
+                <h1>15,000</h1>
+                <p>원</p>
+              </div>
+            </article>
+            <!--list 4-->
+            <article class="productList_wrap_3col">
+              <div class="product_img_wrap">
+                <img src="images/nNb_new_Img4.png" alt="New" />
+              </div>
+              <p>스윗 허니 블랙티 15개입</p>
+              <div class="product_price_wrap">
+                <h1>20,000</h1>
+                <p>원</p>
+              </div>
+            </article>
+            <!--list 5-->
+            <article class="productList_wrap_3col">
+              <div class="product_img_wrap">
+                <img src="images/nNb_new_Img5.png" alt="New" />
+              </div>
+              <p>신선 제주 영굴 15개입</p>
+              <div class="product_price_wrap">
+                <h1>24,000</h1>
+                <p>원</p>
+              </div>
+            </article>
+            <!--list 6-->
+            <article class="productList_wrap_3col">
+              <div class="product_img_wrap">
+                <img src="images/nNb_new_Img6.png" alt="New" />
+              </div>
+              <p>말차 웨하스 팁</p>
+              <div class="product_price_wrap">
+                <h1>7,000</h1>
+                <p>원</p>
+              </div>
+            </article>
+          </div>
+
+          <!--  ** Best **  -->
+          <div class="nNb_new_contents_wrap">
+            <!--list 1-->
+            <article class="productList_wrap_3col">
+              <div class="product_img_wrap">
+                <img src="images/nNb_best_Img1.png" alt="New" />
+              </div>
+              <p>달빛 아래 밀크티 10개입</p>
+              <div class="product_price_wrap">
+                <h1>8,000</h1>
+                <p>원</p>
+              </div>
+            </article>
+            <!--list 2-->
+            <article class="productList_wrap_3col">
+              <div class="product_img_wrap">
+                <img src="images/nNb_best_Img2.png" alt="New" />
+              </div>
+              <p>별헤는 밤 티백 20개입</p>
+              <div class="product_price_wrap">
+                <h1>32,000</h1>
+                <p>원</p>
+              </div>
+            </article>
+            <!--list 3-->
+            <article class="productList_wrap_3col">
+              <div class="product_img_wrap">
+                <img src="images/nNb_best_Img3.png" alt="New" />
+              </div>
+              <p>정원 말차 밀크티백 10개입</p>
+              <div class="product_price_wrap">
+                <h1>15,000</h1>
+                <p>원</p>
+              </div>
+            </article>
+            <!--list 4-->
+            <article class="productList_wrap_3col">
+              <div class="product_img_wrap">
+                <img src="images/nNb_best_Img4.png" alt="New" />
+              </div>
+              <p>스윗 허니 블랙티 15개입</p>
+              <div class="product_price_wrap">
+                <h1>20,000</h1>
+                <p>원</p>
+              </div>
+            </article>
+            <!--list 5-->
+            <article class="productList_wrap_3col">
+              <div class="product_img_wrap">
+                <img src="images/nNb_best_Img5.png" alt="New" />
+              </div>
+              <p>신선 제주 영굴 15개입</p>
+              <div class="product_price_wrap">
+                <h1>24,000</h1>
+                <p>원</p>
+              </div>
+            </article>
+            <!--list 6-->
+            <article class="productList_wrap_3col">
+              <div class="product_img_wrap">
+                <img src="images/nNb_best_Img6.png" alt="New" />
+              </div>
+              <p>말차 웨하스 팁</p>
+              <div class="product_price_wrap">
+                <h1>7,000</h1>
+                <p>원</p>
+              </div>
+            </article>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Since 2000 -->
+    <section id="since">
+      <div class="w1200">
+        <!-- since txt wrap -->
+        <article class="since_txt_wrap">
+          <h1>Since 2000</h1>
+          <div class="since_contents">
+            <p>
+              다다일상, 차와 함께하는 삶은 좀 더 편안한 상태로 만들어줍니다.
+              차를 마시는 것은 일상의 쉼을 가지며, 나를 이끌어내고 세상을
+              따뜻하게 바라보는 것에 관한 일입니다. 당신이 언제 어디에 있든 차와
+              함께 삶의 아름다운 여백을 만들어 나가길 바랍니다.
+            </p>
+            <p>
+              과거 ‘해들이밭’이라 하여 마을에서 가장 먼저 해가 드는 곳이라
+              불렸던 차밭은 온화한 기후에서 성장해 차나무가 어리고 아미노산
+              함량이 높아 뛰어난 맛을 선사합니다.
+            </p>
+          </div>
+        </article>
+      </div>
+      <!-- since img -->
+      <div class="since_img_wrap">
+        <img class="since_img" src="images/since_img.png" alt="since2000" />
+        <img class="since_txt" src="images/since_txtImg.png" alt="since2000" />
+      </div>
+    </section>
+
+    <!-- Weather 기획전 -->
+    <section id="weather">
+      <div class="w1200">
+        <!-- txt & video -->
+        <div class="weather_left">
+          <!-- txt -->
+          <article class="weather_txt_wrap">
+            <h1>Winter</h1>
+            <p>
+              차가운 바람과 비와 눈이 내리는 계절. 겨울은 포근함과 따뜻함이
+              공존한다면 그 어느 계절보다 행복함을 느낄 수 있는 겨울입니다.
+            </p>
+            <!--btn-->
+            <a class="more_btn weather_moreBtn" href="#">
+              제품 보러가기
+              <img
+                class="more_btn_icon"
+                src="images/btn_icon_black.png"
+                alt="제품보러가기"
+              />
+            </a>
+          </article>
+          <!-- video -->
+          <video
+            class="weather_video"
+            src="images/winter3.mp4"
+            loop
+            muted
+            autoplay
+            height="582"
+          ></video>
+        </div>
+        <!-- product list -->
+        <div class="weather_right">
+          <!--list 1-->
+          <article class="productList_wrap_3col">
+            <div class="product_img_wrap">
+              <img src="images/weather_img1.png" alt="New" />
+            </div>
+            <p>골드빛 정원 5개</p>
+            <div class="product_price_wrap">
+              <h1>7,000</h1>
+              <p>원</p>
+            </div>
+          </article>
+          <!--list 2-->
+          <article class="productList_wrap_3col">
+            <div class="product_img_wrap">
+              <img src="images/weather_img1.png" alt="New" />
+            </div>
+            <p>골드빛 정원 10개</p>
+            <div class="product_price_wrap">
+              <h1>14,000</h1>
+              <p>원</p>
+            </div>
+          </article>
+          <!--list 3-->
+          <article class="productList_wrap_3col">
+            <div class="product_img_wrap">
+              <img src="images/weather_img1.png" alt="New" />
+            </div>
+            <p>골드빛 정원 5개</p>
+            <div class="product_price_wrap">
+              <h1>23,000</h1>
+              <p>원</p>
+            </div>
+          </article>
+          <!--list 4-->
+          <article class="productList_wrap_3col">
+            <div class="product_img_wrap">
+              <img src="images/weather_img2.png" alt="New" />
+            </div>
+            <p>골드빛 정원 35g</p>
+            <div class="product_priceDC_wrap">
+              <p>30%</p>
+              <p>15,000원</p>
+              <h1>23,000</h1>
+              <p>원</p>
+            </div>
+          </article>
+        </div>
+        <!--btn-->
+        <a class="more_btn weather_moreBtn w600_weather_btn" href="#">
+          제품 보러가기
+          <img
+            class="more_btn_icon"
+            src="images/btn_icon_black.png"
+            alt="제품보러가기"
+          />
+        </a>
+      </div>
+    </section>
+
+    <!-- 이벤트 띠배너 -->
+    <section id="event_banner_container">
+      <div class="event_banner_filterOne">
+        <div class="event_banner_filterTwo">
+          <div class="w1200">
+            <p class="event_title">더욱 간편하게, 더욱 진하게</p>
+            <p class="event_content">
+              허브티 전 제품 할인과 봄 기획 선물세트까지 <br />
+              2주간의 특가를 놓치지 마세요!
+            </p>
+            <!--btn-->
+            <a class="more_btn event_moreBtn" href="#">
+              제품 보러가기
+              <img
+                class="more_btn_icon"
+                src="images/btn_icon.png"
+                alt="제품보러가기"
+              />
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 가까운 매장을 확인할 수 있어요. -->
+    <section id="offline_container">
+      <div class="w1200">
+        <h1>가까운 매장을 확인할 수 있어요.</h1>
+        <!--btn-->
+        <a class="more_btn nNb_moreBtn offline_btn" href="#">
+          보러가기
+          <img
+            class="more_btn_icon"
+            src="images/btn_icon_black.png"
+            alt="제품보러가기"
+          />
+        </a>
+        <div class="w768_clear" style="clear: both"></div>
+        <!-- list BOX -->
+        <div class="offline_con_wrap">
+          <!-- list 1 -->
+          <div class="offline_box">
+            <div>
+              <img src="images/offline1.png" alt="Offline" />
+              <div class="offline_overlay">
+                <article>
+                  <p>서울 서대문구 통일로 251</p>
+                  <h1>2024.12 OPEN</h1>
+                </article>
+              </div>
+            </div>
+            <p>서울 서대문구 신촌점</p>
+          </div>
+          <!-- list 2 -->
+          <div class="offline_box">
+            <div>
+              <img src="images/offline2.png" alt="Offline" />
+              <div class="offline_overlay">
+                <article>
+                  <p>서울 마포구 동교로51길 133-1</p>
+                  <h1>2024.12 OPEN</h1>
+                </article>
+              </div>
+            </div>
+            <p>서울 마포구 연남점</p>
+          </div>
+          <!-- list 3 -->
+          <div class="offline_box">
+            <div>
+              <img src="images/offline3.png" alt="Offline" />
+              <div class="offline_overlay">
+                <article>
+                  <p>부산 부산진구 부전동 157-10</p>
+                  <h1>2024.12 OPEN</h1>
+                </article>
+              </div>
+            </div>
+            <p>부산 부산진구 서면점</p>
+          </div>
+        </div>
+      </div>
+      <!--side btn-->
+      <div class="offline_side_btn">
+        <button class="offline_prev">
+          <img src="images/offline_prevBtn.png" alt="offline_prevBtn" />
+        </button>
+        <button class="offline_next">
+          <img src="images/offline_nextBtn.png" alt="offline_nextBtn" />
+        </button>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+      <div class="w1200">
+        <!--top-->
+        <div class="footer_top_box">
+          <div class="footer_top_one">
+            <p>
+              차는 우리의 일상의 질을 올려주며, 자연이 순간을 위해 선사하는
+              선물입니다.
+            </p>
+            <p>
+              Ami The들의 오랜 노력과 연구 끝에 얻어낼 수 있었던 순간의 편안함과
+              안락함을 느끼며 건강한 이너를 만들어주는 차(Tea)
+            </p>
+          </div>
+          <!-- pc ~ 768 -->
+          <div class="footer_info_wrap">
+            <div class="footer_top_two">
+              <img class="footer_logo" src="images/logo.png" alt="Logo" />
+              <p class="footer_company_info">
+                서울 강남구 학동로 336 (RSN 빌딩(RSN B/D)) 1층 주식회사 Ami Thé
+                <br />
+                사이트 운영자 : 주식회사 Ami Thé I 대표이사 : 홍길동 <br />
+                사업자 등록번호 : 201-02-19473 사업자정보확인 <br />
+                통신판매업 신고번호 : 2012-서울서초-0647 I 개인정보보호책임자 :
+                홍길동
+              </p>
+              <ul class="footer_etc_info">
+                <li><a href="#">이용약관</a></li>
+                <li>
+                  <a href="#"><b>개인정보처리방침</b></a>
+                </li>
+                <li><a href="#">청소년보호정책</a></li>
+                <li><a href="#">제휴문의</a></li>
+              </ul>
+            </div>
+            <div class="footer_top_three">
+              <div>
+                <img src="images/app_QR.png" alt="App_QR" />
+                <p>Ami The 어플 다운받기</p>
+              </div>
+            </div>
+          </div>
+          <!-- 600 -->
+          <div class="footer_info_wrap w600_footer_info_wrap">
+            <div class="footer_top_two">
+              <img class="footer_logo" src="images/logo.png" alt="Logo" />
+              <p class="footer_company_info">
+                서울 강남구 학동로 336 (RSN 빌딩(RSN B/D)) 1층 주식회사 Ami Thé
+                <br />
+                사이트 운영자 : 주식회사 Ami Thé I 대표이사 : 홍길동 <br />
+                사업자 등록번호 : 201-02-19473 사업자정보확인 <br />
+                통신판매업 신고번호 : 2012-서울서초-0647 I 개인정보보호책임자 :
+                홍길동
+              </p>
+            </div>
+            <div class="footer_top_three">
+              <div>
+                <img src="images/app_QR.png" alt="App_QR" />
+                <p>Ami The 어플 다운받기</p>
+              </div>
+            </div>
+            <ul class="footer_etc_info">
+              <li><a href="#">이용약관</a></li>
+              <li>
+                <a href="#"><b>개인정보처리방침</b></a>
+              </li>
+              <li><a href="#">청소년보호정책</a></li>
+              <li><a href="#">제휴문의</a></li>
+            </ul>
+          </div>
+        </div>
+        <!-- bottom -->
+        <div class="footer_bottom_box">
+          <p>
+            Copyright LOTTE SHOPPING Co., Ltd. e-commerce Business Division All
+            right reserved.
+          </p>
+          <div class="footer_bottom_sns">
+            <a href="#">Blog</a>
+            <a href="#">Instagram</a>
+            <a href="#">Youtube</a>
+          </div>
+        </div>
+        <div class="footer_bottom_box w768_footer_bottom_box">
+          <div class="footer_bottom_sns">
+            <a href="#">Blog</a>
+            <a href="#">Instagram</a>
+            <a href="#">Youtube</a>
+          </div>
+          <p>
+            Copyright LOTTE SHOPPING Co., Ltd. e-commerce Business Division All
+            right reserved.
+          </p>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
