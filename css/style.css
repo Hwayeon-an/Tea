@@ -1025,12 +1025,14 @@ footer {
   box-shadow:0 4px 8px rgba(0,0,0,0.04);
 }
 .app_img_container {
-  margin-top:9%;
+  /*margin-top:9%;*/
   width:100%;
   height:auto;
   display:flex;
   justify-content: space-between;
   position:relative;
+  /*background-color:#f9f9f9;*/
+  padding-top:6%;
 }
 /* .app_img_container::after {
   content:"";
@@ -1050,6 +1052,11 @@ footer {
 .app_img_container > div > img {
   width:100%;
   object-fit: cover;
+  cursor:pointer;
+  transition: .3s;
+}
+.app_img_container > div > img:hover {
+  transform:scale(1.1);
 }
 .white_color {
   display:block;
